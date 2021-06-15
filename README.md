@@ -19,5 +19,5 @@ Create postgres database:
 1. DATABASE_NAME: `todo_app`
 2. DATABASE_USER: `todo_app`
 3. DATABASE_PASSWORD: `todo123`
-4. DATABASE_HOST: if running via docker host should be `db` else host should be `localhost`
+4. DATABASE_HOST: if running via docker host should be `db` else host should be `localhost` in database.py `SQLALCHEMY_DATABASE_URL`
 5. PORT: `5432`
