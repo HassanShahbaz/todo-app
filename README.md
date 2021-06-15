@@ -11,6 +11,11 @@ Run via docker:
 
 Create postgres database:
 
+`sudo -u postgres psql`
+`create user todo_app;`
+`create database todo_app;`
+`alter user todo_app with password 'todo123';`
+
 1. DATABASE_NAME: `todo_app`
 2. DATABASE_USER: `todo_app`
 3. DATABASE_PASSWORD: `todo123`
