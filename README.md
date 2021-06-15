@@ -1,7 +1,8 @@
 1. Go to root directory
 2. Create python3 virtualenv -> `virtualenv -p python3 venv`
 3. Activate environment -> `source venv/bin/activate`
-4. Run project -> `uvicorn todo_app.main:app --reload`
+4. Install requirements -> `pip install -r requirements.txt`
+5. Run project -> `uvicorn todo_app.main:app --reload`
 
 Run via docker:
 1. Go to root directory
