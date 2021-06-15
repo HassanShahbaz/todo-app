@@ -1,15 +1,17 @@
-1.Go to root directory
-2.Activate environment -> source venv/bin/activate
-3.Run project -> uvicorn todo_app.main:app --reload
+1. Go to root directory
+2. Create python3 virtualenv -> `virtualenv -p python3 venv`
+3. Activate environment -> `source venv/bin/activate`
+4. Run project -> `uvicorn todo_app.main:app --reload`
 
 Run via docker:
-1.Go to root directory
-2.docker-compose build
-3.docker-compose up
+1. Go to root directory
+2. `docker-compose build`
+3. `docker-compose up`
 
 Create postgres database:
-DATABASE_NAME: todo_app
-DATABASE_USER: todo_app
-DATABASE_PASSWORD: todo123
-DATABASE_HOST: if running via docker host should be db else host should be localhost
-PORT: 5432
+
+1. DATABASE_NAME: `todo_app`
+2. DATABASE_USER: `todo_app`
+3. DATABASE_PASSWORD: `todo123`
+4. DATABASE_HOST: if running via docker host should be `db` else host should be `localhost`
+5. PORT: `5432`
